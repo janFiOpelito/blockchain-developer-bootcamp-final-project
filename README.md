@@ -8,7 +8,7 @@ Displaying the 10000 collectibles on a screen to select one, in a comprehensive 
 
 This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can intercat with their smart contracts or the Cryptopunks and the Cryptopunks smart contract 
 
-The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, we ha to simplify the analysis and its visualization more than the description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
+The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, we has to simplify the analysis and its visualization more than the description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
 DESCRIPTION
 
@@ -69,7 +69,7 @@ The knn algorithm, D3.js or an already written script, with a little modificatio
   Data collection for Price estimation and data visualisation
   
     Historic prices data, numero and score will be store on the server (CSV, JSON)
-    For each new NFT on sale and new NFT sale: 
+    For each new NFT on sale and each new sale: 
     Collect price, numero and necessary data for a purchase on the Ethereum logs by we3.js or ether.js or by the OpensSea Standard API
 
   Data collection for smart contract purchase blind reservation`
@@ -77,8 +77,8 @@ The knn algorithm, D3.js or an already written script, with a little modificatio
     The metadata collection will be store on IPFS
     Compute the score of each NFT and store it on IPFS. On time shot but too expensive to be done on chain.
     For each new NFT on sale: 
-    Collect price, numero and necessary data for a purchase on the Ethereum logs. Better option that the Opensea standard API for security reasons (I’m right?)
-    Transmission by an Oracle to our smart contract: numero, price, score and all data available for a purchase
+      Collect price, numero and necessary data for a purchase on the Ethereum logs. Better option that the Opensea standard API for security reasons (I’m right?)
+      Transmission by an Oracle to our smart contract: numero, price, score and all data available for a purchase
 
 
  
