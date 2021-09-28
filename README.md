@@ -6,7 +6,7 @@ The price of an NFT in a collection and in relation to other collections of NFTs
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 
-This project will be restricted to one NFT collection that has one already existed market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, but it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
+This project will be restricted to one NFT collection that has one already existed market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, nevertherless it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, the analysis and its visualization have to be more simplified than their description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
@@ -21,7 +21,7 @@ Price estimation 
     The application of an algorithm that will cluster NFTs of similar scores around certain prices, and then by extension, cluster groups of NFTs between prices.
     The clusters thus obtained can be considered as groups of NFTs around and between prices defined by the market.
 
-Without a doubt, there will see outliers on the price curve, some NFTs with a higher score will be cheaper than some with a lower score. In this case, the user will judge for himself...
+Without a doubt, there will be outliers on the price curve, some NFTs with a higher score will be cheaper than some with a lower score. In this case, the user will judge for himself...
 
 The determination of the future price will be done by simple calculation of trajectory applied on the clusters, past prices' history will be take into account. 
 
@@ -63,15 +63,16 @@ OpenSea: https://abidocs.dev/dapps/opensea, https://docs.opensea.io/reference/ap
 
 Cryptopunks smart contract: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB
 
-The knn algorithm, D3.js or an already written script, with a few modifications, will be used for the data analysis
+The knn algorithm with an already written script, with a few modifications, will be used for the data analysis
+ 
 
-Transmission by an Oracle to our smart contract: numero, price, score and all necessary data for a purchase  Data collection for Price estimation and data visualisation
+ Data collection for Price estimation and data visualisation
   
     Historic prices data, numero and score will be store on the node.js server
     For each new NFT on sale and each new sale: 
       Collect price, numero and necessary data for a purchase on the Ethereum logs or by the OpensSea Standard API
 
-  Data collection for smart contract purchase blind reservation`
+ Data collection for smart contract purchase blind reservation`
 
     The metadata collection will be store on IPFS
     Compute the score of each NFT and store it on IPFS. On time shot but too expensive to be done on chain.
