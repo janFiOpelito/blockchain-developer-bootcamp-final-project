@@ -67,7 +67,7 @@ The knn algorithm, D3.js or an already written script, with a few modifications,
 
 Transmission by an Oracle to our smart contract: numero, price, score and all necessary data for a purchase  Data collection for Price estimation and data visualisation
   
-    Historic prices data, numero and score will be store on the server (CSV, JSON)
+    Historic prices data, numero and score will be store on the node.js server
     For each new NFT on sale and each new sale: 
       Collect price, numero and necessary data for a purchase on the Ethereum logs or by the OpensSea Standard API
 
