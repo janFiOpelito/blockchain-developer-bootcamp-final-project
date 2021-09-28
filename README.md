@@ -75,7 +75,7 @@ The knn algorithm with an already written script, with a few modifications, will
  Data collection for smart contract purchase blind reservation`
 
     The metadata collection will be store on IPFS
-    Compute the score of each NFT, and store it on IPFS (how to compute securely?)
+    Compute the score of each NFT, and store it on IPFS (how to compute in a secure way?)
     For each new NFT on sale: 
       Collect price, numero and necessary data for a purchase on the Ethereum logs. 
       Transmission by an Oracle to our smart contract: numero, price, score, and all the necessary data for a purchase
