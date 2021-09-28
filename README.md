@@ -6,7 +6,7 @@ The price of an NFT in a collection and in relation to other collections of NFTs
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 
-This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can intercat with their smart contracts or the Cryptopunks and the Cryptopunks smart contract 
+This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can interact with their smart contracts for buying selling and their logs or the Cryptopunks and the Cryptopunks smart contract market.
 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, we has to simplify the analysis and its visualization more than the description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
@@ -28,7 +28,7 @@ The determination of the future price will be done by simple calculation of traj
 Choice of 1 NFT
   
     The clustering visualisation will be display on screen, the user will have the ability to restrict it by selecting a price range. 
-    The prices, the numerous and the scores of the NFTs will be displayed when the mouse will be on an NFT. 
+    The price, the numero and the score of one NFTs will be displayed when the mouse will be on that NFT. 
     Distinctive signs will be apply on the NFTs free to purchase, the ones sell between the selected period and the others.
     The future prices will be display as figures for specific clusters. 
 
