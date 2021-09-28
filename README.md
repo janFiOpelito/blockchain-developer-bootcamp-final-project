@@ -1,11 +1,11 @@
 # blockchain-developer-bootcamp-final-project
 
-Final project
-Creation of a marketplace where it will be possible to buy, sell, reserve for a future purchase, one NFT of one collection. This by estimating its market price for the present, past or future time in relation to the other NFTs in its collection.
+Final projectCreation of a marketplace where it will be possible to buy, sell, reserve for a future purchase, one NFT of one collection. This by estimating its market price for the present, past or future time in relation to the other NFTs in its collection.
 The price of an NFT in a collection and in relation to other collections of NFTs is a problem that is not often addressed. A site like rarity.tools, for example, offers scoring tools and other measures to estimate the value of an NFT, nevertheless, the relation to the price remains, to our knowledge, unexplored. This being said, giving an ideal price to an NFT is a complex data analysis task and a project in itself. We will simplify it to give an idea of what it could be. 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 This project will be restricted to one NFT collection that has one already existing market. The first intent was to use an OpenSea collection, The Bored Apes, The Cool Cats, or else, but it seems quite difficult, for me maybe, to use OpenSea smart contracts for NFTs availability checking on the logs, and even to put a sell order on chain. So perhaps that the project will be based on the Cryptopunks market or the standard OpenSea API will be used for these operations. 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, we are obliged to simplify the analysis and its visualization more than  that is it described in that document. If it seems, that the project has economic potential, more profound research could be done in that direction. 
+
  Project description
 
 Price estimation The estimation of the market price for a time period, a relevant period for the used market, will be done by using:
