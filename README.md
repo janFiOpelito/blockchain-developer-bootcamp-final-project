@@ -17,7 +17,7 @@ Price estimation 
   The estimation of the market price for a time period, a relevant period for the used market, will be done by using:
 
     the price of the NFTs sold between this time period
-    the rarity score of each NTF of the collection (see COMPLEMENTS for a blog post about the formula)
+    the rarity score of each NTF of the collection (see COMPLEMENTS, Rarity score, a blog post about the formula)
     The application of an algorithm that will cluster NFTs of similar scores around certain prices, and then by extension, cluster groups of NFTs between prices.
     The clusters thus obtained can be considered as groups of NFTs around and between prices defined by the market.
 
