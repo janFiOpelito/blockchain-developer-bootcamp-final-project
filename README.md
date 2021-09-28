@@ -64,21 +64,21 @@ OpenSea: https://abidocs.dev/dapps/opensea, https://docs.opensea.io/reference/ap
 
 Cryptopunks smart contract: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB
 
-The knn algorithm, D3.js or an already written script, with a little modifications, will be used for the data analysis
+The knn algorithm, D3.js or an already written script, with a few modifications, will be used for the data analysis
 
-  Data collection for Price estimation and data visualisation
+Transmission by an Oracle to our smart contract: numero, price, score and all necessary data for a purchase  Data collection for Price estimation and data visualisation
   
     Historic prices data, numero and score will be store on the server (CSV, JSON)
     For each new NFT on sale and each new sale: 
-    Collect price, numero and necessary data for a purchase on the Ethereum logs by we3.js or ether.js or by the OpensSea Standard API
+      Collect price, numero and necessary data for a purchase on the Ethereum logs by we3.js or ether.js or by the OpensSea Standard API
 
   Data collection for smart contract purchase blind reservation`
 
     The metadata collection will be store on IPFS
     Compute the score of each NFT and store it on IPFS. On time shot but too expensive to be done on chain.
     For each new NFT on sale: 
-      Collect price, numero and necessary data for a purchase on the Ethereum logs. Better option that the Opensea standard API for security reasons (I’m right?)
-      Transmission by an Oracle to our smart contract: numero, price, score and all data available for a purchase
+      Collect price, numero and necessary data for a purchase on the Ethereum logs. 
+      Transmission by an Oracle to our smart contract: numero, price, score, and all the necessary data for a purchase
 
 
  
