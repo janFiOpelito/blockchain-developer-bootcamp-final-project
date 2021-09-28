@@ -70,12 +70,12 @@ The knn algorithm with an already written script, with a few modifications, will
   
     Historic prices data, numero and score will be store on the node.js server
     For each new NFT on sale and each new sale: 
-      Collect price, numero and necessary data for a purchase on the Ethereum logs or by the OpensSea Standard API
+      Collect price, numero and necessary data for a purchase on the Ethereum logs, or by the OpensSea Standard API
 
  Data collection for smart contract purchase blind reservation`
 
     The metadata collection will be store on IPFS
-    Compute the score of each NFT and store it on IPFS. On time shot but too expensive to be done on chain.
+    Compute the score of each NFT, and store it on IPFS (how to compute securely?)
     For each new NFT on sale: 
       Collect price, numero and necessary data for a purchase on the Ethereum logs. 
       Transmission by an Oracle to our smart contract: numero, price, score, and all the necessary data for a purchase
