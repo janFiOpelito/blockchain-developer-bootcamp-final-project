@@ -6,9 +6,9 @@ The price of an NFT in a collection and in relation to other collections of NFTs
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 
-This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can interact with their smart contracts for buying selling and their logs or the Cryptopunks and the Cryptopunks smart contract market.
+This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can interact with their smart contracts for buying selling and their logs, or the Cryptopunks and the Cryptopunks smart contract market.
 
-The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, we has to simplify the analysis and its visualization more than the description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
+The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, the analysis and its visualization have to be more simplified than their description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
 DESCRIPTION
 
@@ -17,7 +17,7 @@ Price estimation 
   The estimation of the market price for a time period, a relevant period for the used market, will be done by using:
 
     the price of the NFTs sold between this time period
-    the rarity score of each NTF of the collection (see COMPLEMENTS at the end of document for the formula)
+    the rarity score of each NTF of the collection (see COMPLEMENTS for a blog post about the formula)
     The application of an algorithm that will cluster NFTs of similar scores around certain prices, and then by extension, cluster groups of NFTs between prices.
     The clusters thus obtained can be considered as groups of NFTs around and between prices defined by the market.
 
@@ -37,7 +37,6 @@ Choice of 1 NFT
   Buy:
   
     User Inputs -> numero, price
-    
     Check availability
     
   Sale (set up for a):
@@ -70,7 +69,7 @@ Transmission by an Oracle to our smart contract: numero, price, score and all ne
   
     Historic prices data, numero and score will be store on the server (CSV, JSON)
     For each new NFT on sale and each new sale: 
-      Collect price, numero and necessary data for a purchase on the Ethereum logs by we3.js or ether.js or by the OpensSea Standard API
+      Collect price, numero and necessary data for a purchase on the Ethereum logs or by the OpensSea Standard API
 
   Data collection for smart contract purchase blind reservation`
 
