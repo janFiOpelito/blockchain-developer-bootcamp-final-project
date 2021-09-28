@@ -2,11 +2,11 @@
 
 Creation of a marketplace where it will be possible to buy, sell, reserve for a future purchase, one NFT of one collection. This by estimating its market price for the present, past or future time in relation to the other NFTs in its collection.
 
-The price of an NFT in a collection and in relation to other collections of NFTs is a problem that is not often addressed. A site like rarity.tools, for example, offers scoring tools and other measures to estimate the value of an NFT, nevertheless, the relation to the price remains, to our knowledge, unexplored. This being said, giving an ideal price to an NFT is a complex data analysis task and a project in itself. We will simplify it to give an idea of what it could be. 
+The price of an NFT in a collection and in relation to other collections of NFTs is a problem that is not often addressed. A site like rarity.tools, for example, offers scoring tools and other measures to estimate the value of an NFT, nevertheless, the relation to the price remains, to my knowledge, unexplored. This being said, giving an ideal price to an NFT is a complex data analysis task and a project in itself. I will simplify it to give an idea of what it could be. 
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 
-This project will be restricted to one NFT collection that has one already existed market. An OpenSea collection, The Bored Apes, The Cool Cats, or else, if we can interact with their smart contracts for buying selling and their logs, or the Cryptopunks and the Cryptopunks smart contract market.
+This project will be restricted to one NFT collection that has one already existed market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, but it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, the analysis and its visualization have to be more simplified than their description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
@@ -21,7 +21,7 @@ Price estimation 
     The application of an algorithm that will cluster NFTs of similar scores around certain prices, and then by extension, cluster groups of NFTs between prices.
     The clusters thus obtained can be considered as groups of NFTs around and between prices defined by the market.
 
-Without a doubt, we will see outliers on the price curve, some NFTs with a higher score will be cheaper than some with a lower score. In this case, we will let the buyer judge for himself.
+Without a doubt, there will see outliers on the price curve, some NFTs with a higher score will be cheaper than some with a lower score. In this case, the user will judge for himself...
 
 The determination of the future price will be done by simple calculation of trajectory applied on the clusters, past prices' history will be take into account. 
 
