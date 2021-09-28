@@ -39,6 +39,7 @@ purchase when inputs are checked
 take some fees
 
 Complements and advertisement 
+
 Data collection for Price estimation and data visualisation
 Historic prices data, numero and score will be store on the server (CSV, JSON)
 For each new NFT on sale and new NFT sale: 
@@ -52,8 +53,12 @@ Collect price, numero and necessary data for a purchase on the Ethereum logs. Be
 Transmission by an Oracle to our smart contract: numero, price, score and all data available for a purchase
 
 Rariti.tools: https://rarity.tools/
+
 Rarity score: https://raritytools.medium.com/ranking-rarity-understanding-rarity-calculation-methods-86ceaeb9b98c
+
 OpenSea: https://abidocs.dev/dapps/opensea, https://docs.opensea.io/reference/api-overview, https://github.com/ProjectOpenSea/opensea-js#fetching-orders
+
 Cryptopunks smart contract: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB
+
 The knn algorithm and D3.js will certainly be used
  
