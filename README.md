@@ -2,11 +2,11 @@
 
 Creation of a marketplace where it will be possible to buy, sell, reserve for a future purchase, one NFT of one collection. This by estimating its market price for the present, past or future time in relation to the other NFTs in its collection.
 
+This project will be restricted to one NFT collection that has one already existing market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, nevertherless it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
+
 The price of an NFT in a collection and in relation to other collections of NFTs is a problem that is not often addressed. A site like rarity.tools, for example, offers scoring tools and other measures to estimate the value of an NFT, nevertheless, the relation to the price remains, to my knowledge, unexplored. This being said, giving an ideal price to an NFT is a complex data analysis task and a project in itself. I will simplify it to give an idea of what it could be. 
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
-
-This project will be restricted to one NFT collection that has one already existed market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, nevertherless it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, the analysis and its visualization have to be more simplified than their description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
@@ -34,24 +34,24 @@ Choice of 1 NFT
 
  Trade
  
-  Buy:
+    Buy:
   
-    User Inputs -> numero, price
-    Check availability
+      User Inputs -> numero, price
+      Check availability
     
-  Sale (set up for a):
+    Sale (set up for a):
   
-    User Inputs -> numero, price
-    Check possession
-    can be canceled
+      User Inputs -> numero, price
+      Check possession
+      can be canceled
     
-  Purchase one NFT by blind reservation:
+    Purchase one NFT by blind reservation:
   
-    User input -> minimum score, maximum price
-    Reservation by escrow
-    can be canceled
-    purchase when inputs are checked
-    take some fees
+      User input -> minimum score, maximum price
+      Reservation by escrow
+      can be canceled
+      purchase when inputs are checked
+      take some fees
 
 COMPLEMENTS
 
