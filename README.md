@@ -28,7 +28,7 @@ The determination of the future price will be done by simple calculation of traj
 Choice of 1 NFT
   
     The clustering visualisation will be display on screen, the user will have the ability to restrict it by selecting a price range. 
-    The price, the numero and the score of one NFTs will be displayed when the mouse will be on that NFT. 
+    The price, the numero and the score of one NFT will be displayed when the mouse will select or be on that NFT. 
     Distinctive signs will be apply on the NFTs free to purchase, the ones sell between the selected period and the others.
     The future prices will be display as figures for specific clusters. 
 
