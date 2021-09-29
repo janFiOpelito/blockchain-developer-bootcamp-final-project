@@ -63,7 +63,7 @@ OpenSea: https://abidocs.dev/dapps/opensea, https://docs.opensea.io/reference/ap
 
 Cryptopunks smart contract: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB
 
-The knn algorithm with an already written script, with a few modifications, will be used for the data analysis. For example https://medium.com/swlh/knn-visualizer-using-react-js-db6cea2ea47d or https://hackernoon.com/machine-learning-with-javascript-part-2-da994c17d483
+The knn algorithm with an already written script, with a few modifications, will be used for the data analysis. For example https://medium.com/swlh/knn-visualizer-using-react-js-db6cea2ea47d, or https://hackernoon.com/machine-learning-with-javascript-part-2-da994c17d483
  
 
  Data collection for Price estimation and data visualization
