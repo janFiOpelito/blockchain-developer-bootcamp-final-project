@@ -2,7 +2,7 @@
 
 Creation of a marketplace where it will be possible to buy, sell, reserve for a future purchase, one NFT of one collection. This by estimating its market price for the present, past, or future time in relation to the other NFTs in its collection.
 
-This project will be restricted to one NFT collection that has one already existing market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, nevertherless it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
+This project will be restricted to one NFT collection that has one already existing market: an OpenSea collection, The Bored Apes, The Cool Cats, or else, nevertheless it seems not easy to interact with their smart contracts and to have their logs, maybe the Cryptopunks and the Cryptopunks smart contract market.
 
 The price of an NFT in a collection and in relation to other collections of NFTs is a problem that is not often addressed. A site like rarity.tools, for example, offers scoring tools and other measures to estimate the value of an NFT, nevertheless, the relation to the price remains, to my knowledge, unexplored. This being said, giving an ideal price to an NFT is a complex data analysis task and a project in itself. I will simplify it to give an idea of what it could be. 
 
