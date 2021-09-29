@@ -8,7 +8,7 @@ The price of an NFT in a collection and in relation to other collections of NFTs
 
 Displaying the 10000 collectibles on a screen to select one, in a comprehensive manner, is a difficult task too. Here also, some simplifications and tradeoffs will be made. 
 
-The trading part of the project and its necessary information (escrow contract, queries for new NFT on sale, metadata, score computing) will be decentralized. The analysis, the visualization, and the necessary data for that will be done off-chain in a centralized manner. (See COMPLEMENTS and above)
+The trading part of the project and its necessary information (escrow contract, queries for new NFT on sale, metadata, score computing) will be decentralized. The analysis, the visualization, and the necessary data for that will be done off-chain in a centralized manner. (See above and COMPLEMENTS)
 
 The choice, for that project, is to be concentrated on the smart contract, its logic, and what is around it, even if, the analysis and its visualization have to be more simplified than their description below. If it seems, that this kind of project has economic potential, more profound research could be done. 
 
